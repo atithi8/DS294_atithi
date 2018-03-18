@@ -61,3 +61,8 @@ def feature_ss(A, y, gamma):
         ch = np.max(abs(grad[signs != 0] + gamma * signs[signs != 0]))
     return entry
 
+##################################
+#Test case
+#A=np.random.random((200,1000));
+#y=np.random.random((200));
+#print feature_ss(A,y,0.1);
